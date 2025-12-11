@@ -2,6 +2,9 @@
 
 namespace WebApiOpenapi.api;
 
+// Controller       REST Principles	    RESTful Principles	        Notes
+// DemoController	✅ Uses HTTP GET	❌ URL is action‑based	    Not RESTful
+        
 [Route("api/[controller]")]
 [ApiController]
 public class DemoController : ControllerBase
